@@ -20,25 +20,40 @@ ul {
 }
 
 .letters {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
     font-family: opticianSans;
     margin: 0;
+    padding: 0;
 }
 
 #row1 {
+    color: rgba(0,0,0,0.5);
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 200px;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
 }
 
 #row2 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 100px;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
 }
 
 #row3 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 70px;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
 }
 
 #row4 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 50px;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
 }
