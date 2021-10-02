@@ -16,6 +16,7 @@ ul {
 .container {
     display: flex;
     flex-direction: column;
+    gap: 0;
     justify-content: center;
 }
 
@@ -23,6 +24,7 @@ ul {
     font-family: opticianSans;
     margin: 0;
     padding: 0;
+    line-height: 50px;
 }
 
 #row1 {
@@ -30,7 +32,6 @@ ul {
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 200px;
     color: transparent;
-    display: inline-block;
     text-align: center;
 }
 
@@ -38,7 +39,6 @@ ul {
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 100px;
     color: transparent;
-    display: inline-block;
     text-align: center;
 }
 
@@ -46,7 +46,6 @@ ul {
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 70px;
     color: transparent;
-    display: inline-block;
     text-align: center;
 }
 
@@ -54,6 +53,5 @@ ul {
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 50px;
     color: transparent;
-    display: inline-block;
     text-align: center;
 }
