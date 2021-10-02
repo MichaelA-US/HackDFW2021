@@ -6,26 +6,61 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Online Eye Exam</title>
-        <script>
-                    function getRandomString(length) {
-                            var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-                            var result = '';
-                            for ( var i = 0; i != length; i++ ) {
-                                result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
-                            }
-                           document.write(result);
-                        }
-                        </script>
+
         <body>
-            
             <header>
                 <h1>Online Eye Exam!!!!!!!!!</h1>
                 <Header>Play the audio below</Header>
             <audio controls src = "test.wav"></audio>
             </audio>
-            <input type = "button" onclick = "getRandomString(1)" value = " Start Exam"> 
- 
+         
+            </header>
+            <script>
+                function getRandomString(length) {
+                        var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+                        var result = '';
+                        for ( var i = 0; i != length; i++ ) {
+                            result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+                        }
+                        return result;
+                    }
+                    </script>
+            <script>
+                function newExam()
+                {
+                    document.getElementById("row1").innerHTML = getRandomString(1)
+                    document.getElementById("row2").innerHTML = getRandomString(2)
+                    document.getElementById("row3").innerHTML = getRandomString(3)
+                    document.getElementById("row4").innerHTML = getRandomString(4)
+                    document.getElementById("row5").innerHTML = getRandomString(5)
+                    document.getElementById("row6").innerHTML = getRandomString(6)
+                    document.getElementById("row7").innerHTML = getRandomString(7)
+                    document.getElementById("row8").innerHTML = getRandomString(8)
+                    document.getElementById("row9").innerHTML = getRandomString(9)
+                    document.getElementById("row10").innerHTML = getRandomString(10)
+                    document.getElementById("row11").innerHTML = getRandomString(12)
+                   
+                }
+            </script>
+            <button type="button" onclick = "newExam()">Take Test</button>
+            
+            <p id ="demo">this is a demo</p>
+            <div class="container">
+                <ul class="letters">
+                    <li id = "row1">       
+                        E</li>
+                    <li id = "row2">      Z L </li>
+                    <li id = "row3">     T R N</li>
+                    <li id = "row4">     P L D A</li>
+                    <li id = "row5">    R H J N A</li>
+                    <li id = "row6">   F D C A N R M</li>
+                    <li id = "row7">--------------------</li>
+                    <li id = "row8">   R J N H A U I</li>
+                    <li id = "row9">  L T Z U N B D A</li>
+                    <li id = "row10"> I R B A L T Z X Q</li>
+                    <li id = "row11"> N W Q B S J K Z N D</li>
+                </ul>
+            </div>
         </body>
     </head>
 </html>
-
