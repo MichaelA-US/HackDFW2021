@@ -26,10 +26,9 @@ ul {
 }
 
 #row1 {
+    font-size: 50px;
     color: rgba(0,0,0,0.5);
     text-shadow: 0 0 rgb(0, 0, 0, 1);
-    font-size: 200px;
-    color: transparent;
     display: inline-block;
     text-align: center;
 }
@@ -37,7 +36,6 @@ ul {
 #row2 {
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 100px;
-    color: transparent;
     display: inline-block;
     text-align: center;
 }
@@ -45,7 +43,6 @@ ul {
 #row3 {
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 70px;
-    color: transparent;
     display: inline-block;
     text-align: center;
 }
@@ -53,7 +50,60 @@ ul {
 #row4 {
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     font-size: 50px;
-    color: transparent;
     display: inline-block;
     text-align: center;
+}
+
+#row5 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#row6 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#row7 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#row8 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#row9 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#row10 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#row11 {
+    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.line-2 {
+	text-shadow: 0 0 3px rgba(0,0,0,1);
 }
