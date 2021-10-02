@@ -1,0 +1,44 @@
+h1 {
+    color: #ff0000;
+    font-family: 'Georgia', serif;   
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: opticianSans;
+    src: url("Fonts/Optician-Sans.otf");
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: opticianSans;
+    margin: 0;
+}
+
+#row1 {
+    font-size: 200px;
+}
+
+#row2 {
+    font-size: 100px;
+}
+
+#row3 {
+    font-size: 70px;
+}
+
+#row4 {
+    font-size: 50px;
+}
