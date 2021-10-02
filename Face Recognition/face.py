@@ -18,8 +18,13 @@ while True:
         flags=cv2.CASCADE_SCALE_IMAGE
     )
 
+    largest = (-1, -1, -1, -1)
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x,y), (x+w, y+h), (0, 255, 0), 2)
+        largest = (x, y, w, h) if w > largest[2] else largest
+
+    if largest[0] != -1:
+        cv2.putText(frame, 'Width: {}'.format(w), (x,y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
 
     cv2.imshow('Video', frame)
 
