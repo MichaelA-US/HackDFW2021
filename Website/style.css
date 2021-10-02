@@ -22,13 +22,15 @@ ul {
 
 .letters {
     font-family: opticianSans;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    line-height: 50px;
+    line-height: 100px;
 }
 
 #row1 {
-    font-size: 50px;
+    font-size: 200px;
     color: rgba(0,0,0,0.5);
     text-shadow: 0 0 rgb(0, 0, 0, 1);
     display: inline-block;
