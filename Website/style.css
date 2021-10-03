@@ -28,51 +28,99 @@ ul {
     padding: 0;
     line-height: 100px;
 }
+.letters:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row1:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row2:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row3:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row4:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row5:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row6:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row7:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row8:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row9:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row10:hover {
+    text-shadow: none;
+    color: #000;
+}
+#row11:hover {
+    text-shadow: none;
+    color: #000;
+}
 
 #row1 {
     font-size: 152px;
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 4px rgb(0, 0, 0, 1);
     display: inline-block;
     text-align: center;
 }
 
 #row2 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 8px rgb(0, 0, 0, 1);
     font-size: 130px;
     display: inline-block;
     text-align: center;
 }
 
 #row3 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 12px rgb(0, 0, 0, 1);
     font-size: 108px;
     display: inline-block;
     text-align: center;
 }
 
 #row4 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 12px rgb(0, 0, 0, 1);
     font-size: 87px;
     display: inline-block;
     text-align: center;
 }
 
 #row5 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 16px rgb(0, 0, 0, 1);
     font-size: 65px;
     display: inline-block;
     text-align: center;
 }
 
 #row6 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 16px rgb(0, 0, 0, 1);
     font-size: 43px;
     display: inline-block;
     text-align: center;
 }
 
 #row7 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 16px rgb(0, 0, 0, 1);
     font-size: 33px;
   
     display: inline-block;
@@ -80,27 +128,45 @@ ul {
 }
 
 #row8 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 12px rgb(0, 0, 0, 1);
     font-size: 21px;
     display: inline-block;
     text-align: center;
 }
 
 #row9 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 12px rgb(0, 0, 0, 1);
     font-size: 15px;
     display: inline-block;
     text-align: center;
 }
 
 #row10 {
-    text-shadow: 0 0 rgb(0, 0, 0, 1);
+    text-shadow: 0 0 8px rgb(0, 0, 0, 1);
+    font-size: 9px;
+    display: inline-block;
+    text-align: center;
+}
+
+#row11 {
+    text-shadow: 0 0 4px rgb(0, 0, 0, 1);
     font-size: 9px;
     display: inline-block;
     text-align: center;
 }
 
 
-.line-2 {
-	text-shadow: 0 0 3px rgba(0,0,0,1);
+#row1,
+#row2,
+#row3,
+#row4,
+#row5,
+#row6,
+#row7,
+#row8,
+#row9,
+#row10,
+#row11 {
+    color: transparent;
 }
+
