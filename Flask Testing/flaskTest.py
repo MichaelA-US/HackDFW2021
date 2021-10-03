@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template,Response
 
 video = cv2.VideoCapture(0)
-app = Flask(__name__, template_folder="C:\\Users\\Vincent\\OneDrive\\Documents")
+app = Flask(__name__, template_folder="templates")
 
 cascPath=os.path.dirname(cv2.__file__)+"/data/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
@@ -50,7 +50,7 @@ def gen():
 def index():
     return render_template('index.html')
 
-@app.route("/video")
+@app.route("/video_feed")
 def video_feed():
     return Response(gen(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
