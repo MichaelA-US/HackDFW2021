@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template,Response
 
 video = cv2.VideoCapture(0)
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__, template_folder="../Website")
 
 cascPath=os.path.dirname(cv2.__file__)+"/data/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
@@ -37,18 +37,17 @@ def gen():
         else:
             cv2.putText(frame, 'Face not detected', (50,50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
 
-        cv2.imshow('Video', frame)
+        #cv2.imshow('Video', frame)
         cv2.imwrite('t.jpg', frame)
         yield (b'--frame\r\n'
            b'Content-Type: image/jpeg\r\n\r\n' + open('t.jpg', 'rb').read() + b'\r\n')
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
-    video.release()
+        #if cv2.waitKey(1) & 0xFF == ord('q'):
+            #break
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('eyeexam.html')
 
 @app.route("/video_feed")
 def video_feed():
