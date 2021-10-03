@@ -32,6 +32,7 @@ ul {
     flex-direction: column;
     gap: 0;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .letters {
@@ -92,7 +93,7 @@ ul {
 }
 
 #row1 {
-    font-size: 152px;
+    font-size: 200px;
     text-shadow: 0 0 4px rgb(0, 0, 0, 1);
     display: inline-block;
     text-align: center;
@@ -100,50 +101,49 @@ ul {
 
 #row2 {
     text-shadow: 0 0 8px rgb(0, 0, 0, 1);
-    font-size: 130px;
+    font-size: 100px;
     display: inline-block;
     text-align: center;
 }
 
 #row3 {
     text-shadow: 0 0 12px rgb(0, 0, 0, 1);
-    font-size: 108px;
+    font-size: 70px;
     display: inline-block;
     text-align: center;
 }
 
 #row4 {
     text-shadow: 0 0 12px rgb(0, 0, 0, 1);
-    font-size: 87px;
+    font-size: 50px;
     display: inline-block;
     text-align: center;
 }
 
 #row5 {
     text-shadow: 0 0 16px rgb(0, 0, 0, 1);
-    font-size: 65px;
+    font-size: 40px;
     display: inline-block;
     text-align: center;
 }
 
 #row6 {
     text-shadow: 0 0 16px rgb(0, 0, 0, 1);
-    font-size: 43px;
+    font-size: 30px;
     display: inline-block;
     text-align: center;
 }
 
 #row7 {
     text-shadow: 0 0 16px rgb(0, 0, 0, 1);
-    font-size: 33px;
-
+    font-size: 25px;
     display: inline-block;
     text-align: center;
 }
 
 #row8 {
     text-shadow: 0 0 12px rgb(0, 0, 0, 1);
-    font-size: 21px;
+    font-size: 20px;
     display: inline-block;
     text-align: center;
 }
@@ -157,17 +157,11 @@ ul {
 
 #row10 {
     text-shadow: 0 0 8px rgb(0, 0, 0, 1);
-    font-size: 9px;
+    font-size: 13px;
     display: inline-block;
     text-align: center;
 }
 
-#row11 {
-    text-shadow: 0 0 4px rgb(0, 0, 0, 1);
-    font-size: 9px;
-    display: inline-block;
-    text-align: center;
-}
 input[type='checkbox'] {
     
     width:30px;
