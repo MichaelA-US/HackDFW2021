@@ -10,7 +10,7 @@
         <body>
             <header>
                 <h1>Online Eye Exam</h1>
-                <Header>Play the audio below</Header>
+                <Header class = "vidInfo">Play the audio below</Header>
             <audio controls src = "{{ url_for('static', filename='test.wav') }}"></audio>
             <div class= "webcam">
                 <img src="{{ url_for('video_feed') }}" width=75%>
