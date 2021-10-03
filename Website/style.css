@@ -1,11 +1,17 @@
 h1 {
     color: #ff0000;
     font-family: 'Georgia', serif;
+    text-align: center;
 }
 
 ul {
     padding-left: 0;
     list-style: none;
+}
+
+.btn btn-primary btn-lg {
+    display: flex; 
+    justify-content: center
 }
 
 @font-face {
@@ -153,6 +159,10 @@ ul {
     font-size: 9px;
     display: inline-block;
     text-align: center;
+}
+
+p {
+    font-size: 50px;
 }
 
 
