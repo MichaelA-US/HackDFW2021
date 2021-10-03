@@ -9,9 +9,9 @@ ul {
     list-style: none;
 }
 
-.btn btn-primary btn-lg {
-    display: flex; 
-    justify-content: center
+.button {
+    justify-content: center;
+    text-align: center;
 }
 
 @font-face {
