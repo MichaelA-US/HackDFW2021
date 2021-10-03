@@ -10,7 +10,7 @@
         <body>
             <header>
                 <h1>Online Eye Exam</h1>
-                <Header>Play the audio below</Header>
+                <Header class = "vidInfo">Play the audio below</Header>
             <audio controls src = "{{ url_for('static', filename='test.wav') }}"></audio>
             <div class= "webcam">
                 <img src="{{ url_for('video_feed') }}" width=75%>
@@ -50,15 +50,15 @@
            
             <div class="container">
                 <ul class="letters">
-                    <li id = "row1">   </li> <p><input type = "checkbox" id = "check1" name = "">20/200 -2.50</p>
-                    <li id = "row2">   </li> <p><input type = "checkbox" id = "check2" name = "">20/100 -1.50</p>
-                    <li id = "row3">   </li> <p><input type = "checkbox" id = "check3" name = "">20/70  -1.25</p>
-                    <li id = "row4">   </li> <p><input type = "checkbox" id = "check4" name = "">20/50  -1.00</p>
-                    <li id = "row5">   </li> <p><input type = "checkbox" id = "check5" name = "">20/40   -.75</p>
-                    <li id = "row6">   </li> <p><input type = "checkbox" id = "check6" name = "">20/30   -.50</p>
-                    <li id = "row7">   </li> <p><input type = "checkbox" id = "check7" name = "">20/25   -.25</p>
-                    <li id = "row8">   </li> <p><input type = "checkbox" id = "check8" name = "">20/20   0.00 normal</p>
-                    <li id = "row9">   </li> <p><input type = "checkbox" id = "check9" name = "">20/15</p>
+                    <li id = "row1">   </li> <p><input type = "checkbox" id = "check1" name = "">20/200  <span style = "font-size: 25px">-2.50</span></p>
+                    <li id = "row2">   </li> <p><input type = "checkbox" id = "check2" name = "">20/100  <span style = "font-size: 25px">-1.50</span></p>
+                    <li id = "row3">   </li> <p><input type = "checkbox" id = "check3" name = "">20/70   <span style = "font-size: 25px">-1.25</span></p>
+                    <li id = "row4">   </li> <p><input type = "checkbox" id = "check4" name = "">20/50   <span style = "font-size: 25px">-1.00</span></p>
+                    <li id = "row5">   </li> <p><input type = "checkbox" id = "check5" name = "">20/40   <span style = "font-size: 25px">-.75</span></p>
+                    <li id = "row6">   </li> <p><input type = "checkbox" id = "check6" name = "">20/30   <span style = "font-size: 25px">-.50</span></p>
+                    <li id = "row7">   </li> <p><input type = "checkbox" id = "check7" name = "">20/25   <span style = "font-size: 25px">-.25</span></p>
+                    <li id = "row8">   </li> <p><input type = "checkbox" id = "check8" name = "">20/20   <span style = "font-size: 25px">normal</span></p>
+                    <li id = "row9">   </li> <p><input type = "checkbox" id = "check9" name = "">20/15 </p>
                     <li id = "row10">  </li> <p><input type = "checkbox" id = "check10" name = "">20/13</p>
                    
                 </ul>
