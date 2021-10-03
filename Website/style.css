@@ -9,14 +9,14 @@ ul {
     list-style: none;
 }
 
-.button {
-    justify-content: center;
-    text-align: center;
-}
 
 @font-face {
     font-family: opticianSans;
     src: url("Fonts/Optician-Sans.otf");
+}
+
+.btncon {
+    text-align: center;
 }
 
 .container {
