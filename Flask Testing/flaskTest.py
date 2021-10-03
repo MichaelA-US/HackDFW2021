@@ -7,7 +7,6 @@ app = Flask(__name__, template_folder="../Website")
 
 cascPath=os.path.dirname(cv2.__file__)+"/data/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
-
 def farEnough(width):
     return True if width <= 50 else False
 
